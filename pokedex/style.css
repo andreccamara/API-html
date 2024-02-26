@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(247, 208, 208);
+}
+h1{
+    color: yellow;
+    text-decoration: blue;
+    -webkit-text-stroke: 2px blue;
+    font-size: largest;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    text-shadow: 3px 3px darkblue;
+    margin-bottom: 0;
+}
+p{
+    text-align: center;
+    margin-top: 0px;
+    color: blue;
+    font-style: italic;
+
+
+}  
+form{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+} 
+label{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 10px;
+    text-align: center;
+}
+#span{
+    color: blue;
+    font-style: italic;
+}
+#numerop{
+    color: yellow;
+    text-decoration: blue;
+    -webkit-text-stroke: 1px blue;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    text-shadow: 1px 1px darkblue;
+    margin-bottom: 0;
+}
+#nomep{
+    color: yellow;
+    text-decoration: blue;
+    -webkit-text-stroke: 1px blue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 1000;
+    text-shadow: 1px 1px darkblue;
+    margin-bottom: 0;
+    font-size: larger;}
+
+
+    #imgpokemon {
+        display: flex;
+        
+    }
+    #stats{
+        font-style: normal;
+        text-align:center;
+        right: 50%;
+    }
+    #habilidades{
+    color: blue;
+    }
+    .pp{
+        color: black;
+        font-style: normal;
+    }

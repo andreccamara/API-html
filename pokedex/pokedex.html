@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1>POKEDEX</h1>
+    <p>1ª Geração</p>
+    <form action="">
+        <div id="numero">
+            <label >DIGITE O NUMERO DO POKEMON: </label>
+            <br>
+            <input id="numero123" type="number" >
+            
+        </div>
+        <button type="button" onclick="pesquisanumero()">pesquisar</button>
+        <p id="numerop"></p>
+        <p id="span">ou</p>
+
+
+        <div id="nome">
+            <label> DIGITE O NOME DO POKEMON: </label>
+            <br>
+            <input id="nome123" type="text" > <p id="nomep"></p>
+            <button type="button" onclick="pesquisanome()">pesquisar</button>
+        </div>
+    </form>
+    <div>
+        <br>
+        <p class="pp">Possiveis habilidades do pokemon: <br></p>
+        <p class="pp" id='habilidades'></p>
+        <p class="pp">Status base do pokemon: <br></p>
+        <p  id="stats"></p>
+    <img id="imgpokemon" src="" alt="">
+
+
+</div>
+</body>
+<script src="script.js"></script>
+
+
+</html>
