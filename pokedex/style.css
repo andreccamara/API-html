@@ -63,8 +63,10 @@ input{
 
 
     #imgpokemon {
-        display: flex;
-        
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
     }
     #stats{
         font-style: normal;
